@@ -1,8 +1,15 @@
 
 public class Main {
 
-	public static String FizzBuzz(int i) {
+	public static void main(String[] args) {
 		
+	}
+
+	public static String FizzBuzz(int i) {
+		if(i == 3)
+		{
+			return "Fizz";
+		}
 		return "1";
 	}
 	
