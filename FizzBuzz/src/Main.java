@@ -6,7 +6,7 @@ public class Main {
 	}
 
 	public static String FizzBuzz(int i) {
-		if(i % 3*5 == 0) {
+		if(i % (3*5) == 0) {
 			return "FizzBuzz";
 		}
 		if(i % 3 == 0)
