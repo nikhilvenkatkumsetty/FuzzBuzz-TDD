@@ -27,4 +27,10 @@ public class FizzBuzzTC {
 		String result = Main.FizzBuzz(6);
 		assertEquals("Fizz",result);
 	}
+	
+	@Test
+	public void testFizzBuzzthat5returnsBuzz() {
+		String result = Main.FizzBuzz(5);
+		assertEquals("Buzz",result);
+	}
 }
