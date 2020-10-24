@@ -45,4 +45,12 @@ public class FizzBuzzTC {
 		String result = Main.FizzBuzz(15);
 		assertEquals("FizzBuzz",result);
 	}
+	
+	@Test
+	public void testFizzBuzzfirst100numbers() {
+		
+		for(int i = 0 ; i < 100 ; i++) {
+			System.out.println(Main.FizzBuzz(i));
+		}
+	}
 }
