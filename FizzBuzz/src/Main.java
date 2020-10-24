@@ -10,7 +10,7 @@ public class Main {
 		{
 			return "Fizz";
 		}
-		return Integer.toBinaryString(i);
+		return Integer.toString(i);
 	}
 	
 }
