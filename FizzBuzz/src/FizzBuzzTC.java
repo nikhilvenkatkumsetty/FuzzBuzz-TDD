@@ -39,4 +39,10 @@ public class FizzBuzzTC {
 		String result = Main.FizzBuzz(10);
 		assertEquals("Buzz",result);
 	}
+	
+	@Test
+	public void testFizzBuzzthat15returnsFizzBuzz() {
+		String result = Main.FizzBuzz(15);
+		assertEquals("FizzBuzz",result);
+	}
 }
