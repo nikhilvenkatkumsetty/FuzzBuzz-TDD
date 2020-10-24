@@ -10,6 +10,10 @@ public class Main {
 		{
 			return "Fizz";
 		}
+		if(i == 5)
+		{
+			return "Buzz";
+		}	
 		return Integer.toString(i);
 	}
 	
